@@ -39,7 +39,7 @@ async function handler() {
     const dateFormatted = dayjs().utcOffset(8).format('YYYYMMDD');
 
     const baseUrl = `http://mrdx.cn/content/${dateFormatted}`;
-    const link = `${baseUrl}/Page01DK.htm`;
+    const link = `${baseUrl}/Page01BC.htm`;
 
     const indexPageResponse = await got({
         url: link,
